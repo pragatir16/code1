@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="comp"></p>
+<p id="fun"></p>
+<p id="fer"></p>
+<script type="text/javascript">
+var a = 3;
+var x=(300+40)*a;
+document.getElementById("demo").innerHTML=x;
+ var b= "prag";
+ var z=(a+b);
+ document.getElementById("demo1").innerHTML=z;
+ var p=3;
+ var q=6;
+ var r=3;
+ document.getElementById("comp").innerHTML=(p==r) + "<br>" + (p==r);
+ var d = myFunction(5,6);
+ document.getElementById("fun").innerHTML = d;
+ function myFunction(a,b){
+  return a*b;
+}
+  function tofer(f)
+  {
+    return (5/9) * (f-32);
+  }
+  document.getElementById("fer").innerHTML = tofer(77);
+
+</script>
+</body>
+</html>
